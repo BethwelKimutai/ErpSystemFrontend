@@ -1,14 +1,13 @@
 <template>
     <div>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sequi repellendus! Et omnis tempora iusto? Architecto, nam? Sint quo nesciunt totam officiis, sapiente consequuntur quaerat mollitia similique debitis dolore. Doloremque.</P>
-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam reiciendis veritatis autem tempora harum possimus in impedit, maiores temporibus eum dolorem molestias, beatae provident quod vitae accusamus doloribus. Cupiditate, recusandae?
     </div>
 </template>
 
-<script>
+<script setup>
 
 </script>
 
-<style >
+<style lang="scss" scoped>
 
 </style>

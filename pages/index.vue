@@ -1,15 +1,9 @@
 <template>
     <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Nesciunt debitis natus nam sequi vel nulla eos, numquam laudantium nisi incidunt hic iste explicabo? Molestiae nisi modi a quibusdam ut expedita!
-
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quasi velit animi ex sunt, alias eveniet officia repudiandae eaque molestiae vel magnam, impedit ea. Libero non illo provident temporibus debitis.
     </div>
 </template>
 
 <script setup>
 
 </script>
-
-<style >
-
-</style>

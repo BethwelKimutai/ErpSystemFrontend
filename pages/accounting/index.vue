@@ -1,97 +1,191 @@
 <template>
+
+<div class="max-w-sm w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+  <div class="flex justify-between border-gray-200 border-b dark:border-gray-700 pb-3">
+    <dl>
+      <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Profit</dt>
+      <dd class="leading-none text-3xl font-bold text-gray-900 dark:text-white">$5,405</dd>
+    </dl>
     <div>
-        <div class="py-16 bg-gray-50 overflow-hidden">
-            <div class="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-                <div>
-                    <span class="text-gray-600 text-lg font-semibold">Main features</span>
-                    <h2 class="mt-4 text-2xl text-gray-900 font-bold md:text-4xl">A technology-first approach to
-                        payments <br class="lg:block" hidden> and finance</h2>
-                </div>
-                <div
-                    class="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-                    <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                        <div class="relative p-8 space-y-8">
-                            <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/burger.png"
-                                class="w-10" width="512" height="512" alt="burger illustration">
-
-                            <div class="space-y-2">
-                                <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-                                    First feature</h5>
-                                <p class="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam
-                                    voluptates nostrum.</p>
-                            </div>
-                            <nuxt-link to="" class="flex justify-between items-center group-hover:text-yellow-600">
-                                <span class="text-sm">Read more</span>
-                                <span
-                                    class="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">&RightArrow;</span>
-                            </nuxt-link>
-                        </div>
-                    </div>
-                    <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                        <div class="relative p-8 space-y-8">
-                            <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/trowel.png"
-                                class="w-10" width="512" height="512" alt="burger illustration">
-
-                            <div class="space-y-2">
-                                <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-                                    Second feature</h5>
-                                <p class="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam
-                                    voluptates nostrum.</p>
-                            </div>
-                            <nuxt-link to="" class="flex justify-between items-center group-hover:text-yellow-600">
-                                <span class="text-sm">Read more</span>
-                                <span
-                                    class="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">&RightArrow;</span>
-                            </nuxt-link>
-                        </div>
-                    </div>
-                    <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                        <div class="relative p-8 space-y-8">
-                            <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/package-delivery.png"
-                                class="w-10" width="512" height="512" alt="burger illustration">
-
-                            <div class="space-y-2">
-                                <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-                                    Third feature</h5>
-                                <p class="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam
-                                    voluptates nostrum.</p>
-                            </div>
-                            <nuxt-link to="" class="flex justify-between items-center group-hover:text-yellow-600">
-                                <span class="text-sm">Read more</span>
-                                <span
-                                    class="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">&RightArrow;</span>
-                            </nuxt-link>
-                        </div>
-                    </div>
-                    <div class="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                        <div
-                            class="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
-                            <img src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
-                                class="w-10" width="512" height="512" alt="burger illustration">
-
-                            <div class="space-y-2">
-                                <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-                                    More features</h5>
-                                <p class="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam
-                                    voluptates nostrum.</p>
-                            </div>
-                            <nuxt-link to="" class="flex justify-between items-center group-hover:text-yellow-600">
-                                <span class="text-sm">Read more</span>
-                                <span
-                                    class="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">&RightArrow;</span>
-                            </nuxt-link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <span class="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-1 rounded-md dark:bg-green-900 dark:text-green-300">
+        <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4"/>
+        </svg>
+        Profit rate 23.5%
+      </span>
     </div>
+  </div>
+
+  <div class="grid grid-cols-2 py-3">
+    <dl>
+      <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Income</dt>
+      <dd class="leading-none text-xl font-bold text-green-500 dark:text-green-400">$23,635</dd>
+    </dl>
+    <dl>
+      <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Expense</dt>
+      <dd class="leading-none text-xl font-bold text-red-600 dark:text-red-500">-$18,230</dd>
+    </dl>
+  </div>
+
+  <div id="bar-chart"></div>
+    <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+      <div class="flex justify-between items-center pt-5">
+        <!-- Button -->
+        <button
+          id="dropdownDefaultButton"
+          data-dropdown-toggle="lastDaysdropdown"
+          data-dropdown-placement="bottom"
+          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
+          type="button">
+          Last 6 months
+          <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+          </svg>
+        </button>
+        <!-- Dropdown menu -->
+        <div id="lastDaysdropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Yesterday</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Today</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 7 days</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 30 days</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 90 days</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 6 months</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last year</a>
+              </li>
+            </ul>
+        </div>
+        <a
+          href="#"
+          class="uppercase text-sm font-semibold inline-flex items-center rounded-lg text-blue-600 hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2">
+          Revenue Report
+          <svg class="w-2.5 h-2.5 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+</div>
+
 </template>
 
 <script setup>
 definePageMeta({
     layout: 'accounting',
 })
+
+const options = {
+  series: [
+    {
+      name: "Income",
+      color: "#31C48D",
+      data: ["1420", "1620", "1820", "1420", "1650", "2120"],
+    },
+    {
+      name: "Expense",
+      data: ["788", "810", "866", "788", "1100", "1200"],
+      color: "#F05252",
+    }
+  ],
+  chart: {
+    sparkline: {
+      enabled: false,
+    },
+    type: "bar",
+    width: "100%",
+    height: 400,
+    toolbar: {
+      show: false,
+    }
+  },
+  fill: {
+    opacity: 1,
+  },
+  plotOptions: {
+    bar: {
+      horizontal: true,
+      columnWidth: "100%",
+      borderRadiusApplication: "end",
+      borderRadius: 6,
+      dataLabels: {
+        position: "top",
+      },
+    },
+  },
+  legend: {
+    show: true,
+    position: "bottom",
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  tooltip: {
+    shared: true,
+    intersect: false,
+    formatter: function (value) {
+      return "$" + value
+    }
+  },
+  xaxis: {
+    labels: {
+      show: true,
+      style: {
+        fontFamily: "Inter, sans-serif",
+        cssClass: 'text-xs font-normal fill-gray-500 dark:fill-gray-400'
+      },
+      formatter: function(value) {
+        return "$" + value
+      }
+    },
+    categories: ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    axisTicks: {
+      show: false,
+    },
+    axisBorder: {
+      show: false,
+    },
+  },
+  yaxis: {
+    labels: {
+      show: true,
+      style: {
+        fontFamily: "Inter, sans-serif",
+        cssClass: 'text-xs font-normal fill-gray-500 dark:fill-gray-400'
+      }
+    }
+  },
+  grid: {
+    show: true,
+    strokeDashArray: 4,
+    padding: {
+      left: 2,
+      right: 2,
+      top: -20
+    },
+  },
+  fill: {
+    opacity: 1,
+  }
+}
+
+//  if(document.getElementById("bar-chart") && typeof ApexCharts !== 'undefined') {
+//    const chart = new ApexCharts(document.getElementById("bar-chart"), options);
+//    chart.render();
+//  }
+
 
 </script>
 
